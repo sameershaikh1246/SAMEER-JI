@@ -310,8 +310,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦💙JB💙✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📄 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦💙JB💙✦━━━━━**'
+                cc = f'**🎞️ VID_ID:╭─────╮**\n✦ {str(count).zfill(3)}.✦\n**╰─────╯\n\n📄 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦💙JB💙✦━━━━━**'
+                cc1 = f'**📁 PDF_ID:╭─────╮**\n✦ {str(count).zfill(3)}✦\n**╰─────╯.\n\n📄 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By : {CR}\n\n**━━━━━✦💙JB💙✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -544,8 +544,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @JB_OFFICIAL2210 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦CAPTAIN❣️✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @JB_OFFICIAL2210.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦CAPTAIN❣️✦━━━━━**'
+                cc = f'**🎞️ VID_ID:╭─────╮**\n✦ {str(count).zfill(3)}✦\n**╰─────╯.\n\nTitle: {name1} @JB_OFFICIAL2210 {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦CAPTAIN❣️✦━━━━━**'
+                cc1 = f'**📁 PDF_ID:╭─────╮**\n✦ {str(count).zfill(3)}✦\n**╰─────╯.\n\nTitle: {name1} @JB_OFFICIAL2210.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦CAPTAIN❣️✦━━━━━**'
                     
                 
                 if "drive" in url:
