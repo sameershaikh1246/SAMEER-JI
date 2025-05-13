@@ -310,8 +310,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**\n╭┈┈✨┈┈╮**\n✦ {str(count).zfill(3)}.✦\n**╰┈┈✨┈┈╯\n\n🏆 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Resolution➥{res}\n├── Extention➥𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥.mkv\n\n<pre><code>⊛ 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭────── · · ✨ · · ─── ☆───╮**\n\n✦{CR}✦\n\n**╰─── ☆─── · · ✨ · · ──────╯\n\n**─── ⋆⋅𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥☼⋅⋆ ───'
-                cc1 = f'**\n╭┈┈✨┈┈╮**\n✦ {str(count).zfill(3)}✦\n**╰┈┈✨┈┈╯.\n\n🏆 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Extention➥𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥.pdf\n\n<pre><code>⊛ 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭────── · · ✨ · · ─── ☆───╮**\n\n✦{CR}✦\n\n**╰─── ☆─── · · ✨ · · ──────╯\n\n**─── ⋆⋅𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥☼⋅⋆ ───**'
+                cc = f'**\n╭┈┈✨┈┈╮**\n✦ {str(count).zfill(3)}.✦\n**╰┈┈✨┈┈╯\n\n🏆 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Resolution➥{res}\n├── Extention➥ 𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥.mkv\n\n<pre><code>⊛ 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n𝝅 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭────── · · ✨ · · ─── ☆───╮**\n\n✦{CR}✦\n\n**╰─── ☆─── · · ✨ · · ──────╯\n\n**'─── ⋆⋅𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥☼⋅⋆ ───''
+                cc1 = f'**\n╭┈┈✨┈┈╮**\n✦ {str(count).zfill(3)}✦\n**╰┈┈✨┈┈╯.\n\n🏆 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Extention➥𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥.pdf\n\n<pre><code>⊛ 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n𝝅 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭────── · · ✨ · · ─── ☆───╮**\n\n✦{CR}✦\n\n**╰─── ☆─── · · ✨ · · ──────╯\n\n**'─── ⋆⋅𝗗𝗘𝗩𝗟𝗢𝗣𝗘𝗥☼⋅⋆ ───'**'
                     
                 
                 if "drive" in url:
