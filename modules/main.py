@@ -148,7 +148,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... Command Nhi Bataunga **Bot Made BY @captain_king_09**🔍\n\n"
+        "Checking status Ok... Command Nhi Bataunga **Bot Made BY ⋆𝐒𝐀𝐌𝐄𝐄𝐑❥𝐉𝐈✦⋆**🔍\n\n"
         "Progress:[🟩🟩🟩🟩🟩🟩🟩🟩🟩] 100%\n\n"
     )
 
@@ -158,7 +158,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["team1"]) )
+@bot.on_message(filters.command(["sameer1"]) )
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Hi I am Poweful TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -219,7 +219,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg :@DOCTOR_JB **")
+    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg :⋆𝐒𝐀𝐌𝐄𝐄𝐑❥𝐉𝐈✦⋆ **")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -310,8 +310,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID:\n╭─────╮**\n✦ {str(count).zfill(3)}.✦\n**╰─────╯\n\n🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Resolution➥{res}\n├── Extention➥@BABA_ASP.mkv\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭──────────.★..─╮**\n\n✦{CR}✦\n\n**╰─..★.──────────╯\n\n**•┈••✦𝗗𝗢𝗖𝗧𝗢𝗥❤✦••┈•'
-                cc1 = f'**📁 PDF_ID:\n╭─────╮**\n✦ {str(count).zfill(3)}✦\n**╰─────╯.\n\n🍂 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Extention➥@BABA_ASP.pdf\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭──────────.★..─╮**\n\n✦{CR}✦\n\n**╰─..★.──────────╯\n\n**•┈••✦𝗗𝗢𝗖𝗧𝗢𝗥❤✦••┈•**'
+                cc = f'**🎞️ VID_ID:\n╭─────╮**\n✦ {str(count).zfill(3)}.✦\n**╰─────╯\n\n🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Resolution➥{res}\n├── Extention➥@BABA_ASP.mkv\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭──────────.★..─╮**\n\n✦{CR}✦\n\n**╰─..★.──────────╯\n\n**≻〉 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ⋆𝐒𝐀𝐌𝐄𝐄𝐑❥𝐉𝐈✦⋆ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 〈≺'
+                cc1 = f'**📁 PDF_ID:\n╭─────╮**\n✦ {str(count).zfill(3)}✦\n**╰─────╯.\n\n🍂 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Extention➥@BABA_ASP.pdf\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n╭──────────.★..─╮**\n\n✦{CR}✦\n\n**╰─..★.──────────╯\n\n**≻〉 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ⋆𝐒𝐀𝐌𝐄𝐄𝐑❥𝐉𝐈✦⋆ ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 〈≺**'
                     
                 
                 if "drive" in url:
@@ -394,7 +394,7 @@ async def txt_handler(bot: Client, m: Message):
 
 # Advance
 
-@bot.on_message(filters.command(["team2"]) )
+@bot.on_message(filters.command(["sameer2"]) )
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Hi I am Poweful TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
@@ -544,8 +544,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID:\n╭─────╮**\n✦ {str(count).zfill(3)}.✦\n**╰─────╯\n\n🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Resolution➥{res}\n├── Extention➥@BABA_ASP.mkv\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ {CR}\n\n**•┈••✦𝗗𝗢𝗖𝗧𝗢𝗥❤✦••┈•'
-                cc1 = f'**📁 PDF_ID:\n╭─────╮**\n✦ {str(count).zfill(3)}✦\n**╰─────╯.\n\n🍂 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Extention➥@BABA_ASP.pdf\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ {CR}\n\n**•┈••✦𝗗𝗢𝗖𝗧𝗢𝗥❤✦••┈•**'
+                cc = f'**\n╭─────╮**\n✦ {str(count).zfill(3)}.✦\n**╰─────╯\n\n🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Resolution➥{res}\n├── Extention➥@BABA_ASP.mkv\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽\n\n༶•┈┈⛧┈♛┈⛧┈┈•༶**\n\n {CR}✦\n\n**༶•┈┈⛧┈♛┈⛧┈┈•༶\n\n**•┈••✦𝗗𝗢𝗖𝗧𝗢𝗥❤✦••┈•'
+                cc1 = f'**\n╭─────╮**\n✦ {str(count).zfill(3)}✦\n**╰─────╯.\n\n🍂 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘 ➺ {name1} \n├── Extention➥@BABA_ASP.pdf\n\n<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘➺ {b_name}</code></pre>\n\n📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘 ➽ \n\n༶•┈┈⛧┈♛┈⛧┈┈•༶**\n\n{CR}✦\n\n**༶•┈┈⛧┈♛┈⛧┈┈•༶\n\n**•┈••✦𝗗𝗢𝗖𝗧𝗢𝗥❤✦••┈•**'
                     
                 
                 if "drive" in url:
