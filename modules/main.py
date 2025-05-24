@@ -197,7 +197,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit("**Enter resolution.\n Eg : 480 or 720**")
+    await editable.edit("**💀चल अपना 𝗩𝗶𝗱𝗲𝗼 की ʀᴇ𝕤ᴏʟᴜᴛɪᴏɴ📸 चुन बे 🤬**\n\n➺`144`n\n\n➺`240`\n\n➺`360`\n\n➺`480`\n\n➺`720`\n\n➺`1080` \n\n➺जल्दी चुन बे **")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -433,7 +433,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit("**Enter resolution.\n Eg : 480 or 720**")
+    await editable.edit("**💀चल अपना 𝗩𝗶𝗱𝗲𝗼 की ʀᴇ𝕤ᴏʟᴜᴛɪᴏɴ📸 चुन बे 🤬**\n\n➺`144`n\n\n➺`240`\n\n➺`360`\n\n➺`480`\n\n➺`720`\n\n➺`1080` \n\n➺जल्दी चुन बे **")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
